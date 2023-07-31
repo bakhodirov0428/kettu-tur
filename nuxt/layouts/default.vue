@@ -13,21 +13,21 @@
           </div>
           <div class="col-lg-6 text-center text-lg-right">
             <div class="d-inline-flex align-items-center">
-              <a class="text-primary px-3" href="">
+              <NuxtLink class="text-primary px-3" to="">
                 <i class="fab fa-facebook-f"></i>
-              </a>
-              <a class="text-primary px-3" href="">
+              </NuxtLink>
+              <NuxtLink class="text-primary px-3" to="">
                 <i class="fab fa-twitter"></i>
-              </a>
-              <a class="text-primary px-3" href="">
+              </NuxtLink>
+              <NuxtLink class="text-primary px-3" to="">
                 <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a class="text-primary px-3" href="">
+              </NuxtLink>
+              <NuxtLink class="text-primary px-3" to="">
                 <i class="fab fa-instagram"></i>
-              </a>
-              <a class="text-primary pl-3" href="">
+              </NuxtLink>
+              <NuxtLink class="text-primary pl-3" to="">
                 <i class="fab fa-youtube"></i>
-              </a>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -141,18 +141,18 @@
             Bizga Qo'shiling
           </h6>
           <div class="d-flex justify-content-start">
-            <a class="btn btn-outline-primary btn-square mr-2" href="#">
+            <NuxtLink class="btn btn-outline-primary btn-square mr-2" to="">
               <i class="fab fa-twitter"></i>
-            </a>
-            <a class="btn btn-outline-primary btn-square mr-2" href="#">
+            </NuxtLink>
+            <NuxtLink class="btn btn-outline-primary btn-square mr-2" to="">
               <i class="fab fa-facebook-f"></i>
-            </a>
-            <a class="btn btn-outline-primary btn-square mr-2" href="#">
+            </NuxtLink>
+            <NuxtLink class="btn btn-outline-primary btn-square mr-2" to="">
               <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a class="btn btn-outline-primary btn-square" href="#">
+            </NuxtLink>
+            <NuxtLink class="btn btn-outline-primary btn-square" to="">
               <i class="fab fa-instagram"></i>
-            </a>
+            </NuxtLink>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
@@ -189,16 +189,17 @@
             Ichki turizm
           </h5>
           <div class="d-flex flex-column justify-content-start">
-            <a class="text-white-50 mb-2" href="#">
+            <NuxtLink class="text-white-50 mb-2" to="/packages">
               <i class="fa fa-angle-right mr-2"></i>
               Xivaga guruh sayohati
-            </a>
-            <a class="text-white-50 mb-2" href="#"
-              ><i class="fa fa-angle-right mr-2"></i>Buxoroga guruh sayohati</a
+            </NuxtLink>
+            <NuxtLink class="text-white-50 mb-2" to="/packages"
+              ><i class="fa fa-angle-right mr-2"></i>Buxoroga guruh
+              sayohati</NuxtLink
             >
-            <a class="text-white-50 mb-2" href="#"
+            <NuxtLink class="text-white-50 mb-2" to="/packages"
               ><i class="fa fa-angle-right mr-2"></i>Samarqandga guruh
-              sayohati</a
+              sayohati</NuxtLink
             >
           </div>
         </div>
@@ -239,9 +240,9 @@
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+    <NuxtLink to="" class="btn btn-lg btn-primary btn-lg-square back-to-top"
       ><i class="fa fa-angle-double-up"></i
-    ></a>
+    ></NuxtLink>
   </section>
 </template>
 

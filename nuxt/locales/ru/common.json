@@ -1,0 +1,259 @@
+{
+  "header": {
+    "link": {
+      "home": "Главное страница",
+      "about": "О нас",
+      "services": "Наши сервисы",
+      "packages": "Турпакеты",
+      "contact": "Контакт",
+      "til": {
+        "title": "Язык",
+        "lang": {
+          "language": "Английский",
+          "language1": "Узбекский",
+          "language2": "Русский"
+        }
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "ЭКСКУРСИИ И ПУТЕШЕСТВИЯ",
+      "content": "Это место для отдыха с удобствами, о которых вы мечтали",
+      "button": "Турпакеты"
+    },
+    "about us": {
+      "title": "О нас",
+      "content": "Мы предлагаем лучшие туристические пакеты, подходящие для вашего бюджета.",
+      "text": "
+      KettuTur — туристическое агентство. Агентство, которое управляет различными туристическими маршрутами во многих странах. Kettu Tour выделяется среди этих агентств превосходным сервисом и множеством выгодных предложений.",
+      "button": "Турпакеты",
+      "card": {
+        "title": "Доступные цены",
+        "content": "Мы рекомендуем различные пакеты в соответствии с вашим бюджетом."
+      },
+      "card1": {
+        "title": "Хорошие услуги",
+        "content": "Мы предлагаем вам лучшие услуги"
+      },
+      "card2": {
+        "title": "ВИЗА",
+        "content": "Визовая поддержка в страны Европы"
+      }
+    },
+    "tourism": {
+      "title": "МЕСТНЫЙ ТУРИЗМ",
+      "content": "Путешествия по Узбекистану",
+      "card": {
+        "title": "Хива групповой тур",
+        "prise": "1780 000"
+      },
+      "card1": {
+        "title": "Групповая поездка в Бухару",
+        "prise": "1 550 000"
+      },
+      "card2": {
+        "title": "Групповая поездка в Самарканд",
+        "prise": "320 000"
+      }
+    },
+    "service": {
+      "title": "НАШИ СЕРВИСЫ",
+      "content": "Экскурсионно-туристические услуги",
+      "card": {
+        "title": "Путеводитель",
+        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+      },
+      "card1": {
+        "title": "Бронирование билетов",
+        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+      },
+      "card2": {
+        "title": "Бронирование гостиниц",
+        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+      }
+    },
+    "paketlar": {
+      "title": "ПАКЕТЫ",
+      "content": "ПУТЕШЕСТВИЯ ПО МИРУ",
+      "card": {
+        "day": "день",
+        "person": "человек",
+        "content": "Открывайте удивительные уголки мира вместе с нами"
+      },
+      "card1": {
+        "day": "день",
+        "person": "человек",
+        "content": "Открывайте удивительные уголки мира вместе с нами"
+      },
+      "card2": {
+        "day": "день",
+        "person": "человек",
+        "content": "Открывайте удивительные уголки мира вместе с нами"
+      },
+      "card3": {
+        "day": "день",
+        "person": "человек",
+        "content": "Открывайте удивительные уголки мира вместе с нами"
+      },
+      "card4": {
+        "day": "день",
+        "person": "человек",
+        "content": "Открывайте удивительные уголки мира вместе с нами"
+      },
+      "card5": {
+        "day": "день",
+        "person": "человек",
+        "content": "Открывайте удивительные уголки мира вместе с нами"
+      }
+    },
+    "taklif": {
+      "title": "МЕГА ПРЕДЛОЖЕНИЕ",
+      "chegirma": "Скидка 30% на медовый месяц",
+      "content": "Invidunt lorem justo saintus clita. Erat lorem Labore EA, Justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed диам. Ea et erat ut sed diam sea ipsum est dolor",
+      "offer": "Labore eos amet dolor amet diam",
+      "offer1": "Etsea et sit dolor amet ipsum",
+      "offer2": "Diam dolor diam elitripsum vero.",
+      "helo": {
+        "title": "Помощь",
+        "name": "Ваше имя",
+        "number": "Ваш номер телефона",
+        "massege": "Отправите сообщение",
+        "button": "Отправить сообщение"
+      }
+    }
+  },
+  "footre": {
+    "content": "KettuTur — туристическое агентство. Агентство, которое управляет различными туристическими маршрутами во многих странах. Kettu Tour выделяется среди этих агентств превосходным сервисом и множеством выгодных предложений.",
+    "turizm": {
+      "title": "МЕСТНЫЙ ТУРИЗМ",
+      "text": "Хива групповой тур",
+      "text1": "Групповая поездка в Бухару",
+      "text2": "Групповая поездка в Самарканд"
+    },
+    "xizmat": {
+      "text": "О нас",
+      "text1": "Наши сервисы",
+      "text2": "Турпакеты",
+      "text3": "Связаться с нами"
+    },
+    "qoshiling": {
+      "title": "ПРИСОЕДИНЯЙТЕСЬ К НАМ"
+    },
+    "aloqa": {
+      "title": "Связаться с нами",
+      "adres": "
+      123-я улица, Нью-Йорк, США"
+    },
+    "footerand": {
+      "title": "Copyright © Кетту-Тур. Все права защищены.",
+      "text": "Разработано Zakiy - IT-компания"
+    }
+  },
+  "about": {
+    "about us": {
+      "title": "О нас",
+      "content": "Мы предлагаем лучшие туристические пакеты, подходящие для вашего бюджета.",
+      "text": "
+      KettuTur — туристическое агентство. Агентство, которое управляет различными туристическими маршрутами во многих странах. Kettu Tour выделяется среди этих агентств превосходным сервисом и множеством выгодных предложений.",
+      "button": "Турпакеты",
+      "card": {
+        "title": "Доступные цены",
+        "content": "Мы рекомендуем различные пакеты в соответствии с вашим бюджетом."
+      },
+      "card1": {
+        "title": "Хорошие услуги",
+        "content": "Мы предлагаем вам лучшие услуги"
+      },
+      "card2": {
+        "title": "ВИЗА",
+        "content": "Визовая поддержка в страны Европы"
+      }
+    },
+    "taklif": {
+      "title": "МЕГА ПРЕДЛОЖЕНИЕ",
+      "chegirma": "Скидка 30% на медовый месяц",
+      "content": "Invidunt lorem justo saintus clita. Erat lorem Labore EA, Justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed диам. Ea et erat ut sed diam sea ipsum est dolor",
+      "offer": "Labore eos amet dolor amet diam",
+      "offer1": "Etsea et sit dolor amet ipsum",
+      "offer2": "Diam dolor diam elitripsum vero.",
+      "helo": {
+        "title": "Обратная связь",
+        "massege": "Отправите сообщение",
+        "button": "Отправить сообщение"
+      }
+    }
+  },
+  "service": {
+    "title": "НАШИ СЕРВИСЫ",
+    "content": "Экскурсионно-туристические услуги",
+    "card": {
+      "title": "Путеводитель",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card1": {
+      "title": "Бронирование билетов",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card2": {
+      "title": "Бронирование гостиниц",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card3": {
+      "title": "Путеводитель",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card4": {
+      "title": "Бронирование билетов",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card5": {
+      "title": "Бронирование гостиниц",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    }
+  },
+  "paketlar": {
+    "title": "ПАКЕТЫ",
+    "content": "ПУТЕШЕСТВИЯ ПО МИРУ",
+    "card": {
+      "day": "день",
+      "person": "человек",
+      "content": "Открывайте удивительные уголки мира вместе с нами"
+    },
+    "card1": {
+      "day": "день",
+      "person": "человек",
+      "content": "Открывайте удивительные уголки мира вместе с нами"
+    },
+    "card2": {
+      "day": "день",
+      "person": "человек",
+      "content": "Открывайте удивительные уголки мира вместе с нами"
+    },
+    "card3": {
+      "day": "день",
+      "person": "человек",
+      "content": "Открывайте удивительные уголки мира вместе с нами"
+    },
+    "card4": {
+      "day": "день",
+      "person": "человек",
+      "content": "Открывайте удивительные уголки мира вместе с нами"
+    },
+    "card5": {
+      "day": "день",
+      "person": "человек",
+      "content": "Открывайте удивительные уголки мира вместе с нами"
+    }
+  },
+  "aloqa": {
+    "title": "КОММУНИКАЦИЯ",
+    "link": "ГЛАВНАЯ СТРАНИЦА",
+    "text": "ПОЖАЛУЙСТА, ЗАДАВАЙТЕ ЛЮБЫЕ ВОПРОСЫ",
+    "name": "Ваше имя",
+    "number": "Ваш номер телефона",
+    "subject": "Предмет",
+    "message": "Сообщение",
+    "button": "Отправить сообщение"
+  }
+}

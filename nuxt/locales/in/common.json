@@ -1,0 +1,256 @@
+{
+  "header": {
+    "link": {
+      "home": "Main page",
+      "about": "About Us",
+      "services": "Our services",
+      "packages": "Tour packages",
+      "contact": "Contact",
+      "til": {
+        "title": "Language",
+        "lang": {
+          "language": "English",
+          "language1": "Uzbek",
+          "language2": "Russian"
+        }
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "EXCURSIONS AND TRAVEL",
+      "content": "This is the place to stay with the amenities you've been dreaming of.",
+      "button": "Tour packages"
+    },
+    "about us": {
+      "title": "About Us",
+      "content": "We offer the best travel packages to suit your budget.",
+      "text": "KettuTur is a travel agency. An agency that manages various tourist routes in many countries. Kettu Tour stands out among these agencies with excellent service and many great deals.",
+      "button": "Tour packages",
+      "card": {
+        "title": "Affordable prices",
+        "content": "We recommend different packages to suit your budget."
+      },
+      "card1": {
+        "title": "Good services",
+        "content": "We offer you the best services"
+      },
+      "card2": {
+        "title": "VISA",
+        "content": "Visa support to European countries"
+      }
+    },
+    "tourism": {
+      "title": "LOCAL TOURISM",
+      "content": "Traveling in Uzbekistan",
+      "card": {
+        "title": "Khiva group tour",
+        "prise": "1780 000"
+      },
+      "card1": {
+        "title": "Group trip to Bukhara",
+        "prise": "1 550 000"
+      },
+      "card2": {
+        "title": "Group trip to Samarkand",
+        "prise": "320 000"
+      }
+    },
+    "service": {
+      "title": "OUR SERVICES",
+      "content": "Excursion and tourist services",
+      "card": {
+        "title": "Guide",
+        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+      },
+      "card1": {
+        "title": "Ticket booking",
+        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+      },
+      "card2": {
+        "title": "Hotel booking",
+        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+      }
+    },
+    "paketlar": {
+      "title": "PACKAGES",
+      "content": "TRAVELING AROUND THE WORLD",
+      "card": {
+        "day": "day",
+        "person": "human",
+        "content": "Discover amazing corners of the world with us"
+      },
+      "card1": {
+        "day": "day",
+        "person": "human",
+        "content": "Discover amazing corners of the world with us"
+      },
+      "card2": {
+        "day": "day",
+        "person": "human",
+        "content": "Discover amazing corners of the world with us"
+      },
+      "card3": {
+        "day": "day",
+        "person": "human",
+        "content": "Discover amazing corners of the world with us"
+      },
+      "card4": {
+        "day": "day",
+        "person": "human",
+        "content": "Discover amazing corners of the world with us"
+      },
+      "card5": {
+        "day": "day",
+        "person": "human",
+        "content": "Discover amazing corners of the world with us"
+      }
+    },
+    "taklif": {
+      "title": "MEGA OFFERЕ",
+      "chegirma": "30% discount for honeymoon",
+      "content": "Invidunt lorem justo saintus clita. Erat lorem Labore EA, Justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed диам. Ea et erat ut sed diam sea ipsum est dolor",
+      "offer": "Labore eos amet dolor amet diam",
+      "offer1": "Etsea et sit dolor amet ipsum",
+      "offer2": "Diam dolor diam elitripsum vero.",
+      "helo": {
+        "title": "Help",
+        "name": "Your name",
+        "number": "Your nummner",
+        "massege": "Message",
+        "button": "Send message"
+      }
+    }
+  },
+  "footre": {
+    "content": "KettuTur — туристическое агентство. Агентство, которое управляет различными туристическими маршрутами во многих странах. Kettu Tour выделяется среди этих агентств превосходным сервисом и множеством выгодных предложений.",
+    "turizm": {
+      "title": "МЕСТНЫЙ ТУРИЗМ",
+      "text": "Хива групповой тур",
+      "text1": "Групповая поездка в Бухару",
+      "text2": "Групповая поездка в Самарканд"
+    },
+    "xizmat": {
+      "text": "О нас",
+      "text1": "Наши сервисы",
+      "text2": "Турпакеты",
+      "text3": "Связаться с нами"
+    },
+    "qoshiling": {
+      "title": "ПРИСОЕДИНЯЙТЕСЬ К НАМ"
+    },
+    "aloqa": {
+      "title": "Связаться с нами",
+      "adres": "123-я улица, Нью-Йорк, США"
+    },
+    "footerand": {
+      "title": "Copyright © Кетту-Тур. Все права защищены.",
+      "text": "Разработано Zakiy - IT-компания"
+    }
+  },
+  "about": {
+    "about us": {
+      "title": "About Us",
+      "content": "We offer the best travel packages to suit your budget.",
+      "text": "KettuTur is a travel agency. An agency that manages various tourist routes in many countries. Kettu Tour stands out among these agencies with excellent service and many great deals.",
+      "button": "Tour packages",
+      "card": {
+        "title": "Affordable prices",
+        "content": "We recommend different packages to suit your budget."
+      },
+      "card1": {
+        "title": "Good services",
+        "content": "We offer you the best services"
+      },
+      "card2": {
+        "title": "VISA",
+        "content": "Visa support to European countries"
+      }
+    },
+    "taklif": {
+      "title": "MEGA OFFERЕ",
+      "chegirma": "30% discount for honeymoon",
+      "content": "Invidunt lorem justo saintus clita. Erat lorem Labore EA, Justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed диам. Ea et erat ut sed diam sea ipsum est dolor",
+      "offer": "Labore eos amet dolor amet diam",
+      "offer1": "Etsea et sit dolor amet ipsum",
+      "offer2": "Diam dolor diam elitripsum vero.",
+      "helo": {
+        "title": "Feedback",
+        "massege": "Message",
+        "button": "Send message"
+      }
+    }
+  },
+  "service": {
+    "title": "OUR SERVICES",
+    "content": "Excursion and tourist services",
+    "card": {
+      "title": "Guide",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card1": {
+      "title": "Ticket booking",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card2": {
+      "title": "Hotel booking",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card3": {
+      "title": "Guide",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card4": {
+      "title": "Ticket booking",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card5": {
+      "title": "Hotel booking",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    }
+  },
+  "paketlar": {
+    "title": "PACKAGES",
+    "content": "TRAVELING AROUND THE WORLD",
+    "card": {
+      "day": "day",
+      "person": "human",
+      "content": "Discover amazing corners of the world with us"
+    },
+    "card1": {
+      "day": "day",
+      "person": "human",
+      "content": "Discover amazing corners of the world with us"
+    },
+    "card2": {
+      "day": "day",
+      "person": "human",
+      "content": "Discover amazing corners of the world with us"
+    },
+    "card3": {
+      "day": "day",
+      "person": "human",
+      "content": "Discover amazing corners of the world with us"
+    },
+    "card4": {
+      "day": "day",
+      "person": "human",
+      "content": "Discover amazing corners of the world with us"
+    },
+    "card5": {
+      "day": "day",
+      "person": "human",
+      "content": "Discover amazing corners of the world with us"
+    }
+  },
+  "aloqa": {
+    "title": "CONTACT",
+    "link": "MAIN PAGE",
+    "text": "PLEASE ASK ANY QUESTIONS",
+    "name": "Your name",
+    "number": "Your name",
+    "subject": "Subject",
+    "message": "Message",
+    "button": "Send message"
+  }
+}
