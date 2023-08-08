@@ -8,12 +8,12 @@
             <div class="d-inline-flex align-items-center">
               <p><i class="fa fa-envelope mr-2"></i>info@kettu-tur.uz</p>
               <p class="text-body px-3">|</p>
-              <p><i class="fa fa-phone-alt mr-2"></i>+998 90 000-00-00</p>
+              <p><i class="fa fa-phone-alt mr-2"></i>+998 (99) 815-99-99</p>
             </div>
           </div>
           <div class="col-lg-6 text-center text-lg-right">
             <div class="d-inline-flex align-items-center">
-              <NuxtLink class="text-primary px-3" to="">
+              <!-- <NuxtLink class="text-primary px-3" to="">
                 <i class="fab fa-facebook-f"></i>
               </NuxtLink>
               <NuxtLink class="text-primary px-3" to="">
@@ -21,13 +21,16 @@
               </NuxtLink>
               <NuxtLink class="text-primary px-3" to="">
                 <i class="fab fa-linkedin-in"></i>
-              </NuxtLink>
-              <NuxtLink class="text-primary px-3" to="">
+              </NuxtLink> -->
+              <NuxtLink
+                class="text-primary px-3"
+                to="https://www.instagram.com/kettu_tur/"
+              >
                 <i class="fab fa-instagram"></i>
               </NuxtLink>
-              <NuxtLink class="text-primary pl-3" to="">
+              <!-- <NuxtLink class="text-primary pl-3" to="">
                 <i class="fab fa-youtube"></i>
-              </NuxtLink>
+              </NuxtLink> -->
             </div>
           </div>
         </div>
@@ -44,9 +47,9 @@
         <nav
           class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5"
         >
-          <NuxtLink to="/" class="navbar-brand">
+          <NuxtLink :to="localePath('/')" class="navbar-brand">
             <h1 class="m-0 text-primary">
-              <img src="img/LOGO.PNG" alt="" width="150" />
+              <img src="/img/logo.png" alt="" width="150" />
             </h1>
           </NuxtLink>
           <button
@@ -62,36 +65,40 @@
             id="navbarCollapse"
           >
             <div class="navbar-nav ml-auto py-0">
-              <NuxtLink to="/" class="nav-item nav-link" active-class="active">
-                Bosh sahifa
-              </NuxtLink>
               <NuxtLink
-                to="/about"
+                :to="localePath('/')"
                 class="nav-item nav-link"
                 active-class="active"
               >
-                Biz haqimizda
+                {{ $t("header.link.home") }}
               </NuxtLink>
               <NuxtLink
-                to="/services"
+                :to="localePath('/about')"
                 class="nav-item nav-link"
                 active-class="active"
               >
-                Xizmatlarimiz
+                {{ $t("header.link.about") }}
               </NuxtLink>
               <NuxtLink
-                to="/packages"
+                :to="localePath('/services')"
                 class="nav-item nav-link"
                 active-class="active"
               >
-                Tur paketlar
+                {{ $t("header.link.services") }}
               </NuxtLink>
               <NuxtLink
-                to="/contact"
+                :to="localePath('/packages')"
                 class="nav-item nav-link"
                 active-class="active"
               >
-                Aloqa
+                {{ $t("header.link.packages") }}
+              </NuxtLink>
+              <NuxtLink
+                :to="localePath('/contact')"
+                class="nav-item nav-link"
+                active-class="active"
+              >
+                {{ $t("header.link.contact") }}
               </NuxtLink>
 
               <div class="nav-item dropdown">
@@ -100,12 +107,16 @@
                   class="nav-link dropdown-toggle"
                   data-toggle="dropdown"
                 >
-                  Til
+                  {{ $t("header.link.til.title") }}
                 </div>
                 <div class="dropdown-menu border-0 rounded-0 m-0">
-                  <NuxtLink to="/en" class="dropdown-item">English</NuxtLink>
-                  <NuxtLink to="/uz" class="dropdown-item">O'zbek</NuxtLink>
-                  <NuxtLink to="/ru" class="dropdown-item">Русский</NuxtLink>
+                  <button
+                    v-for="locale in $i18n.locales"
+                    @click="$i18n.setLocale(locale.code)"
+                    class="dropdown-item"
+                  >
+                    {{ locale.name }}
+                  </button>
                 </div>
               </div>
             </div>
@@ -123,34 +134,34 @@
     >
       <div class="row pt-5">
         <div class="col-lg-3 col-md-6 mb-5">
-          <NuxtLink to="/" class="navbar-brand">
+          <NuxtLink :to="localePath('/')" class="navbar-brand">
             <h1 class="text-primary">
-              <img src="./img/logo white.png" width="200" alt="" />
+              <img src="/img/logo-white.png" width="200" alt="" />
             </h1>
           </NuxtLink>
           <p>
-            KettuTur - sayyohlik agentligi. Ko'plab davlatlarda turli xil safar
-            yo'llarini amalga oshiruvchi agentlik. Kettu Tur bu agentliklar
-            ichida o'zining yuqori xizmat ko'rsatish hamda ko'plab ajoyib
-            takliflari bilan ajralib turadi.
+            {{ $t("footre.content") }}
           </p>
           <h6
             class="text-white text-uppercase mt-4 mb-3"
             style="letter-spacing: 5px"
           >
-            Bizga Qo'shiling
+            {{ $t("footre.qoshiling.title") }}
           </h6>
           <div class="d-flex justify-content-start">
-            <NuxtLink class="btn btn-outline-primary btn-square mr-2" to="">
+            <!-- <NuxtLink class="btn btn-outline-primary btn-square mr-2" to="">
               <i class="fab fa-twitter"></i>
-            </NuxtLink>
-            <NuxtLink class="btn btn-outline-primary btn-square mr-2" to="">
+            </NuxtLink> -->
+            <!-- <NuxtLink class="btn btn-outline-primary btn-square mr-2" to="">
               <i class="fab fa-facebook-f"></i>
-            </NuxtLink>
-            <NuxtLink class="btn btn-outline-primary btn-square mr-2" to="">
+            </NuxtLink> -->
+            <!-- <NuxtLink class="btn btn-outline-primary btn-square mr-2" to="">
               <i class="fab fa-linkedin-in"></i>
-            </NuxtLink>
-            <NuxtLink class="btn btn-outline-primary btn-square" to="">
+            </NuxtLink> -->
+            <NuxtLink
+              class="btn btn-outline-primary btn-square"
+              to="https://www.instagram.com/kettu_tur/"
+            >
               <i class="fab fa-instagram"></i>
             </NuxtLink>
           </div>
@@ -160,24 +171,24 @@
             class="text-white text-uppercase mb-4"
             style="letter-spacing: 5px"
           >
-            Xizmatlarimiz
+            {{ $t("footre.xizmat.text1") }}
           </h5>
           <div class="d-flex flex-column justify-content-start">
             <NuxtLink class="text-white-50 mb-2" to="/about">
               <i class="fa fa-angle-right mr-2"></i>
-              Biz haqimizda
+              {{ $t("footre.xizmat.text") }}
             </NuxtLink>
-            <NuxtLink class="text-white-50 mb-2" to="/services">
+            <NuxtLink class="text-white-50 mb-2" :to="localePath('/services')">
               <i class="fa fa-angle-right mr-2"></i>
-              Xizmatlarimiz
+              {{ $t("footre.xizmat.text1") }}
             </NuxtLink>
-            <NuxtLink class="text-white-50 mb-2" to="/packages">
+            <NuxtLink class="text-white-50 mb-2" :to="localePath('/packages')">
               <i class="fa fa-angle-right mr-2"></i>
-              Tur paketlar
+              {{ $t("footre.xizmat.text2") }}
             </NuxtLink>
-            <NuxtLink class="text-white-50 mb-2" to="/contact">
+            <NuxtLink class="text-white-50 mb-2" :to="'/contact'">
               <i class="fa fa-angle-right mr-2"></i>
-              Biz bilan bog'lanish
+              {{ $t("footre.xizmat.text3") }}
             </NuxtLink>
           </div>
         </div>
@@ -186,20 +197,20 @@
             class="text-white text-uppercase mb-4"
             style="letter-spacing: 5px"
           >
-            Ichki turizm
+            {{ $t("footre.turizm.title") }}
           </h5>
           <div class="d-flex flex-column justify-content-start">
-            <NuxtLink class="text-white-50 mb-2" to="/packages">
+            <NuxtLink class="text-white-50 mb-2" :to="localePath('/packages')">
               <i class="fa fa-angle-right mr-2"></i>
-              Xivaga guruh sayohati
+              {{ $t("footre.turizm.text") }}
             </NuxtLink>
-            <NuxtLink class="text-white-50 mb-2" to="/packages"
-              ><i class="fa fa-angle-right mr-2"></i>Buxoroga guruh
-              sayohati</NuxtLink
+            <NuxtLink class="text-white-50 mb-2" :to="localePath('/packages')"
+              ><i class="fa fa-angle-right mr-2"></i
+              >{{ $t("footre.turizm.text1") }}</NuxtLink
             >
-            <NuxtLink class="text-white-50 mb-2" to="/packages"
-              ><i class="fa fa-angle-right mr-2"></i>Samarqandga guruh
-              sayohati</NuxtLink
+            <NuxtLink class="text-white-50 mb-2" :to="localePath('/packages')"
+              ><i class="fa fa-angle-right mr-2"></i
+              >{{ $t("footre.turizm.text2") }}</NuxtLink
             >
           </div>
         </div>
@@ -208,12 +219,13 @@
             class="text-white text-uppercase mb-4"
             style="letter-spacing: 5px"
           >
-            Biz bilan bog'lanish
+            {{ $t("footre.aloqa.title") }}
           </h5>
-          <p>
-            <i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA
-          </p>
-          <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+          <!-- <p>
+            <i class="fa fa-map-marker-alt mr-2"></i
+            >{{ $t("footre.aloqa.adres") }}
+          </p> -->
+          <p><i class="fa fa-phone-alt mr-2"></i>+998 (99) 815-99-99</p>
           <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
         </div>
       </div>
@@ -225,8 +237,11 @@
       <div class="row">
         <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
           <p class="m-0 text-white-50">
-            Copyright &copy; <NuxtLink to="/">Kettu-Tur</NuxtLink>. All Rights
-            Reserved.
+            {{ $t("footre.footerand.title") }} &copy;
+            <NuxtLink :to="localePath('/')">{{
+              $t("footre.footerand.text")
+            }}</NuxtLink>
+            {{ $t("footre.footerand.text1") }}
           </p>
         </div>
         <div class="col-lg-6 text-center text-md-right">
@@ -247,6 +262,9 @@
 </template>
 
 <script setup>
+import { useLocalePath } from "#imports";
+const localePath = useLocalePath();
+
 useHead({
   title: "Bosh sahifa",
 });

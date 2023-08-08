@@ -20,9 +20,10 @@
     "hero": {
       "title": "EXCURSIONS AND TRAVEL",
       "content": "This is the place to stay with the amenities you've been dreaming of.",
+      "content2": "Discover amazing places with us",
       "button": "Tour packages"
     },
-    "about us": {
+    "about_us": {
       "title": "About Us",
       "content": "We offer the best travel packages to suit your budget.",
       "text": "KettuTur is a travel agency. An agency that manages various tourist routes in many countries. Kettu Tour stands out among these agencies with excellent service and many great deals.",
@@ -40,20 +41,20 @@
         "content": "Visa support to European countries"
       }
     },
-    "tourism": {
+    "turizm": {
       "title": "LOCAL TOURISM",
       "content": "Traveling in Uzbekistan",
       "card": {
         "title": "Khiva group tour",
-        "prise": "1780 000"
+        "price": "1780 000"
       },
       "card1": {
         "title": "Group trip to Bukhara",
-        "prise": "1 550 000"
+        "price": "1 550 000"
       },
       "card2": {
         "title": "Group trip to Samarkand",
-        "prise": "320 000"
+        "price": "320 000"
       }
     },
     "service": {
@@ -107,9 +108,10 @@
       }
     },
     "taklif": {
-      "title": "MEGA OFFERЕ",
-      "chegirma": "30% discount for honeymoon",
-      "content": "Invidunt lorem justo saintus clita. Erat lorem Labore EA, Justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed диам. Ea et erat ut sed diam sea ipsum est dolor",
+      "title": "MEGA OFFER",
+      "chegirma": "For Honeymoon",
+      "price": "30% OFF ",
+      "content": "KettuTur - Travel agency. An agency that operates various travel routes in many countries. Kettu Tour stands out among these agencies for its superior service and many great offers.",
       "offer": "Labore eos amet dolor amet diam",
       "offer1": "Etsea et sit dolor amet ipsum",
       "offer2": "Diam dolor diam elitripsum vero.",
@@ -123,33 +125,35 @@
     }
   },
   "footre": {
-    "content": "KettuTur — туристическое агентство. Агентство, которое управляет различными туристическими маршрутами во многих странах. Kettu Tour выделяется среди этих агентств превосходным сервисом и множеством выгодных предложений.",
+    "content": "KettuTur is a travel agency. An agency that manages various tourist routes in many countries. Kettu Tour stands out among these agencies with excellent service and many great deals.",
     "turizm": {
-      "title": "МЕСТНЫЙ ТУРИЗМ",
-      "text": "Хива групповой тур",
-      "text1": "Групповая поездка в Бухару",
-      "text2": "Групповая поездка в Самарканд"
+      "title": "LOCAL TOURISM",
+      "text": "Khiva group tour",
+      "text1": "Group trip to Bukhara",
+      "text2": "Group trip to Samarkand"
     },
     "xizmat": {
-      "text": "О нас",
-      "text1": "Наши сервисы",
-      "text2": "Турпакеты",
-      "text3": "Связаться с нами"
+      "text": "About Us",
+      "text1": "Our services",
+      "text2": "Tour packages",
+      "text3": "Connect with us"
     },
     "qoshiling": {
-      "title": "ПРИСОЕДИНЯЙТЕСЬ К НАМ"
+      "title": "JOIN US"
     },
     "aloqa": {
-      "title": "Связаться с нами",
-      "adres": "123-я улица, Нью-Йорк, США"
+      "title": "Connect with us",
+      "adres": "123rd street, New York, USA"
     },
     "footerand": {
-      "title": "Copyright © Кетту-Тур. Все права защищены.",
-      "text": "Разработано Zakiy - IT-компания"
+      "title": "Copyright",
+      "text1": "Kettu Tour.",
+      "text2": "All rights reserved.",
+      "text": "Zakiy - IT-company"
     }
   },
   "about": {
-    "about us": {
+    "about_us": {
       "title": "About Us",
       "content": "We offer the best travel packages to suit your budget.",
       "text": "KettuTur is a travel agency. An agency that manages various tourist routes in many countries. Kettu Tour stands out among these agencies with excellent service and many great deals.",
@@ -168,9 +172,10 @@
       }
     },
     "taklif": {
-      "title": "MEGA OFFERЕ",
-      "chegirma": "30% discount for honeymoon",
-      "content": "Invidunt lorem justo saintus clita. Erat lorem Labore EA, Justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed диам. Ea et erat ut sed diam sea ipsum est dolor",
+      "title": "MEGA OFFER",
+      "chegirma": "For Honeymoon",
+      "price": "30% OFF",
+      "content": "KettuTur - Travel agency. An agency that operates various travel routes in many countries. Kettu Tour stands out among these agencies for its superior service and many great offers.",
       "offer": "Labore eos amet dolor amet diam",
       "offer1": "Etsea et sit dolor amet ipsum",
       "offer2": "Diam dolor diam elitripsum vero.",
@@ -183,6 +188,7 @@
   },
   "service": {
     "title": "OUR SERVICES",
+    "link": "HOME",
     "content": "Excursion and tourist services",
     "card": {
       "title": "Guide",
@@ -209,7 +215,7 @@
       "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
     }
   },
-  "paketlar": {
+  "packages": {
     "title": "PACKAGES",
     "content": "TRAVELING AROUND THE WORLD",
     "card": {
@@ -245,12 +251,21 @@
   },
   "aloqa": {
     "title": "CONTACT",
-    "link": "MAIN PAGE",
+    "link": "HOME",
     "text": "PLEASE ASK ANY QUESTIONS",
     "name": "Your name",
     "number": "Your name",
     "subject": "Subject",
     "message": "Message",
     "button": "Send message"
+  },
+  "tour": {
+    "title": "Tour packages",
+    "link": "HOME",
+    "name": "Your name",
+    "amount": "Enter payment amount",
+    "tour_name": "Get  tour name",
+    "button": "Book now",
+    "text": "Description"
   }
 }

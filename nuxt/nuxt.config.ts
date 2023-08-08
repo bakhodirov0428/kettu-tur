@@ -1,11 +1,45 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: true,
   devtools: { enabled: true },
+
+  modules: ["@nuxtjs/i18n"],
+
   css: [
     "assets/css/style.min.css",
     "assets/css/owl.carousel.min.css",
     "assets/css/tempusdominus-bootstrap-4.min.css",
   ],
+
+  i18n: {
+    langDir: "locales",
+    defaultLocale: "uz",
+    locales: [
+      {
+        code: "en",
+        iso: "en_US",
+        file: "en.json",
+        name: "English",
+      },
+      {
+        code: "ru",
+        iso: "ru_RU",
+        file: "ru.json",
+        name: "Русский",
+      },
+      {
+        code: "uz",
+        iso: "uz_UZ",
+        file: "uz.json",
+        name: "O'zbek",
+      },
+    ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n__kettu",
+      redirectOn: "root",
+    },
+  },
 
   app: {
     head: {

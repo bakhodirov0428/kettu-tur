@@ -20,9 +20,10 @@
     "hero": {
       "title": "EKSKURSIYALAR & SAYOHATLAR",
       "content": "Bu siz orzu qilgan qulayliklarga ega bo'lgan dam olish maskanidir",
+      "content2": " Biz bilan ajoyib joylarni kashf eting",
       "button": "Tur paketlar"
     },
-    "about us": {
+    "about_us": {
       "title": "BIZ HAQIMIZDA",
       "content": "Biz sizning byudjetingizda mos eng yaxshi tur paketlarini taqdim etamiz",
       "text": "KettuTur - sayyohlik agentligi. Ko'plab davlatlarda turli xil safar yo'llarini amalga oshiruvchi agentlik. Kettu Tur bu agentliklar ichida o'zining yuqori xizmat ko'rsatish hamda ko'plab ajoyib takliflari bilan ajralib turadi.",
@@ -40,20 +41,20 @@
         "content": "Evropa davlatlariga VISA olishda yordam."
       }
     },
-    "tourism": {
+    "turizm": {
       "title": "ICHKI TURIZM",
       "content": "O'zbekiston bo'ylab sayohatlar",
       "card": {
         "title": "Xiva guruh sayohati",
-        "prise": "1780 000"
+        "price": "1780 000"
       },
       "card1": {
         "title": "Buxoroga guruh sayohati",
-        "prise": "1 550 000"
+        "price": "1 550 000"
       },
       "card2": {
         "title": "Samarqandga guruh sayohati",
-        "prise": "320 000"
+        "price": "320 000"
       }
     },
     "service": {
@@ -107,9 +108,10 @@
       }
     },
     "taklif": {
-      "title": "MEGA OFFER",
-      "chegirma": "Asal oyi uchun 30% chegirma",
-      "content": "Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor",
+      "title": "SUPER CHEGIRMA",
+      "chegirma": "Asal oyi uchun ",
+      "price": "30% chegirma",
+      "content": "KettuTur - sayyohlik agentligi. Ko'plab davlatlarda turli xil safar yo'llarini amalga oshiruvchi agentlik. Kettu Tur bu agentliklar ichida o'zining yuqori xizmat ko'rsatish hamda ko'plab ajoyib takliflari bilan ajralib turadi.",
       "offer": "Labore eos amet dolor amet diam",
       "offer1": "Etsea et sit dolor amet ipsum",
       "offer2": "Diam dolor diam elitripsum vero.",
@@ -144,12 +146,15 @@
       "adres": "123 Street, Nyu-York, AQSh"
     },
     "footerand": {
-      "title": "Mualliflik huquqi © Kettu-Tur. Barcha huquqlar himoyalangan.",
-      "text": "Zakiy - IT kompaniyasi tomonidan ishlab chiqilgan"
+      "title": "Mualliflik huquqi",
+      "text": " Kettu-Tur.",
+      "text1": " Barcha huquqlar himoyalangan.",
+      "text2": " tomonidan ishlab chiqilgan",
+      "text3": "Zakiy - IT kompaniyasi"
     }
   },
   "about": {
-    "about us": {
+    "about_us": {
       "title": "BIZ HAQIMIZDA",
       "content": "Biz sizning byudjetingizda mos eng yaxshi tur paketlarini taqdim etamiz",
       "text": "KettuTur - sayyohlik agentligi. Ko'plab davlatlarda turli xil safar yo'llarini amalga oshiruvchi agentlik. Kettu Tur bu agentliklar ichida o'zining yuqori xizmat ko'rsatish hamda ko'plab ajoyib takliflari bilan ajralib turadi.",
@@ -168,9 +173,10 @@
       }
     },
     "taklif": {
-      "title": "MEGA OFFER",
-      "chegirma": "Asal oyi uchun 30% chegirma",
-      "content": "Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor",
+      "title": "SUPER CHEGIRMA",
+      "chegirma": "Asal oyi uchun ",
+      "price": "30% chegirma",
+      "content": "KettuTur - sayyohlik agentligi. Ko'plab davlatlarda turli xil safar yo'llarini amalga oshiruvchi agentlik. Kettu Tur bu agentliklar ichida o'zining yuqori xizmat ko'rsatish hamda ko'plab ajoyib takliflari bilan ajralib turadi.",
       "offer": "Labore eos amet dolor amet diam",
       "offer1": "Etsea et sit dolor amet ipsum",
       "offer2": "Diam dolor diam elitripsum vero.",
@@ -181,74 +187,69 @@
       }
     }
   },
-  "services": {
+  "service": {
     "title": "XIZMATLARIMIZ",
     "link": "BOSH SAHIFA",
-    "service": {
-      "title": "XIZMATLARIMIZ",
-      "content": "Ekskursiya va Sayohat Xizmatlari",
-      "card": {
-        "title": "Sayohat bo'yicha qo'llanma",
-        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
-      },
-      "card1": {
-        "title": "Chipta bron qilish",
-        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
-      },
-      "card2": {
-        "title": "Mehmonxona bron qilish",
-        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
-      },
-      "card3": {
-        "title": "Sayohat bo'yicha qo'llanma",
-        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
-      },
-      "card4": {
-        "title": "Chipta bron qilish",
-        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
-      },
-      "card5": {
-        "title": "Mehmonxona bron qilish",
-        "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
-      }
+    "content": "Ekskursiya va Sayohat Xizmatlari",
+    "card": {
+      "title": "Sayohat bo'yicha qo'llanma",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card1": {
+      "title": "Chipta bron qilish",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card2": {
+      "title": "Mehmonxona bron qilish",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card3": {
+      "title": "Sayohat bo'yicha qo'llanma",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card4": {
+      "title": "Chipta bron qilish",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
+    },
+    "card5": {
+      "title": "Mehmonxona bron qilish",
+      "content": "Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore"
     }
   },
-  "packkages": {
+  "packages": {
     "title": "TUR PAKETLAR",
     "link": "BOSH SAHIFA",
-    "paketlar": {
-      "title": "PAKETLAR",
-      "content": "DUNYO BO'YLAB SAYOHATLAR",
-      "card": {
-        "day": "kun",
-        "person": "kishilik",
-        "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
-      },
-      "card1": {
-        "day": "kun",
-        "person": "kishilik",
-        "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
-      },
-      "card2": {
-        "day": "kun",
-        "person": "kishilik",
-        "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
-      },
-      "card3": {
-        "day": "kun",
-        "person": "kishilik",
-        "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
-      },
-      "card4": {
-        "day": "kun",
-        "person": "kishilik",
-        "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
-      },
-      "card5": {
-        "day": "kun",
-        "person": "kishilik",
-        "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
-      }
+
+    "content": "DUNYO BO'YLAB SAYOHATLAR",
+    "card": {
+      "day": "kun",
+      "person": "kishilik",
+      "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
+    },
+    "card1": {
+      "day": "kun",
+      "person": "kishilik",
+      "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
+    },
+    "card2": {
+      "day": "kun",
+      "person": "kishilik",
+      "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
+    },
+    "card3": {
+      "day": "kun",
+      "person": "kishilik",
+      "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
+    },
+    "card4": {
+      "day": "kun",
+      "person": "kishilik",
+      "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
+    },
+    "card5": {
+      "day": "kun",
+      "person": "kishilik",
+      "content": "Biz bilan dunyoning ajoyib joylarini kashf eting"
     }
   },
   "aloqa": {
@@ -260,5 +261,14 @@
     "subject": "Mavzu",
     "message": "Xabar",
     "button": "Xabar Yuborish"
+  },
+  "tour": {
+    "title": "TUR PAKETLAR",
+    "link": "BOSH SAHIFA",
+    "name": "Ismingiz",
+    "amount": "To'lov miqdorini kiriting",
+    "tour_name": "Tur nomini oling",
+    "button": "Hozir band qiling",
+    "text": "Tavsif"
   }
 }

@@ -9,11 +9,15 @@
         <h3 class="display-4 text-white text-uppercase">Dubai</h3>
         <div class="d-inline-flex text-white">
           <p class="m-0 text-uppercase">
-            <NuxtLink class="text-white" to="/">Home</NuxtLink>
+            <NuxtLink class="text-white" :to="localePath('/')">{{
+              $t("tour.link")
+            }}</NuxtLink>
           </p>
           <i class="fa fa-angle-double-right pt-1 px-3"></i>
           <p class="m-0 text-uppercase">
-            <NuxtLink class="text-white" to="/packages">Tour Packages</NuxtLink>
+            <NuxtLink class="text-white" :to="localePath('/packages')"
+              >{{ $t("tour.title") }}s</NuxtLink
+            >
           </p>
           <i class="fa fa-angle-double-right pt-1 px-3"></i>
           <p class="m-0 text-uppercase">Dubai</p>
@@ -101,7 +105,7 @@
                   <input
                     type="text"
                     class="form-control p-4"
-                    placeholder="Your name"
+                    :placeholder="$t('tour.name')"
                     required="true"
                   />
                 </div>
@@ -117,7 +121,7 @@
                   <input
                     type="number"
                     class="form-control p-4"
-                    placeholder="Enter the payment amount "
+                    :placeholder="$t('tour.amount')"
                     required
                   />
                 </div>
@@ -125,14 +129,14 @@
                   <input
                     type="text"
                     class="form-control p-4"
-                    value="Get tour name"
+                    :value="$t('tour.tour_name')"
                     readonly
                   />
                 </div>
 
                 <div>
                   <button class="btn btn-primary btn-block py-3" type="submit">
-                    Book now
+                    {{ $t("tour.button") }}
                   </button>
                 </div>
               </form>
@@ -144,7 +148,7 @@
       <!-- Description -->
 
       <div class="row pt-5">
-        <h3>Description</h3>
+        <h3>{{ $t("tour.text") }}</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
           neque a beatae minus quibusdam, cum, architecto consequuntur iste
@@ -166,3 +170,11 @@
   </div>
   <!-- Booking End -->
 </template>
+<script setup>
+import { useLocalePath } from "#imports";
+const localePath = useLocalePath();
+
+useHead({
+  title: "Bosh sahifa",
+});
+</script>

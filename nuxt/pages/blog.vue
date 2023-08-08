@@ -199,7 +199,7 @@
             <div class="col-md-6 mb-4 pb-2">
               <div class="blog-item">
                 <div class="position-relative">
-                  <img class="img-fluid w-100" src="img/blog-1.jpg" alt="" />
+                  <img class="img-fluid w-100" src="/img/blog-1.jpg" alt="" />
                   <div class="blog-date">
                     <h6 class="font-weight-bold mb-n1">01</h6>
                     <small class="text-white text-uppercase">Jan</small>
@@ -228,7 +228,7 @@
             <div class="col-md-6 mb-4 pb-2">
               <div class="blog-item">
                 <div class="position-relative">
-                  <img class="img-fluid w-100" src="img/blog-2.jpg" alt="" />
+                  <img class="img-fluid w-100" src="/img/blog-2.jpg" alt="" />
                   <div class="blog-date">
                     <h6 class="font-weight-bold mb-n1">01</h6>
                     <small class="text-white text-uppercase">Jan</small>
@@ -257,7 +257,7 @@
             <div class="col-md-6 mb-4 pb-2">
               <div class="blog-item">
                 <div class="position-relative">
-                  <img class="img-fluid w-100" src="img/blog-3.jpg" alt="" />
+                  <img class="img-fluid w-100" src="/img/blog-3.jpg" alt="" />
                   <div class="blog-date">
                     <h6 class="font-weight-bold mb-n1">01</h6>
                     <small class="text-white text-uppercase">Jan</small>
@@ -286,7 +286,7 @@
             <div class="col-md-6 mb-4 pb-2">
               <div class="blog-item">
                 <div class="position-relative">
-                  <img class="img-fluid w-100" src="img/blog-1.jpg" alt="" />
+                  <img class="img-fluid w-100" src="/img/blog-1.jpg" alt="" />
                   <div class="blog-date">
                     <h6 class="font-weight-bold mb-n1">01</h6>
                     <small class="text-white text-uppercase">Jan</small>
@@ -315,7 +315,7 @@
             <div class="col-md-6 mb-4 pb-2">
               <div class="blog-item">
                 <div class="position-relative">
-                  <img class="img-fluid w-100" src="img/blog-2.jpg" alt="" />
+                  <img class="img-fluid w-100" src="/img/blog-2.jpg" alt="" />
                   <div class="blog-date">
                     <h6 class="font-weight-bold mb-n1">01</h6>
                     <small class="text-white text-uppercase">Jan</small>
@@ -344,7 +344,7 @@
             <div class="col-md-6 mb-4 pb-2">
               <div class="blog-item">
                 <div class="position-relative">
-                  <img class="img-fluid w-100" src="img/blog-3.jpg" alt="" />
+                  <img class="img-fluid w-100" src="/img/blog-3.jpg" alt="" />
                   <div class="blog-date">
                     <h6 class="font-weight-bold mb-n1">01</h6>
                     <small class="text-white text-uppercase">Jan</small>
@@ -373,7 +373,7 @@
             <div class="col-md-6 mb-4 pb-2">
               <div class="blog-item">
                 <div class="position-relative">
-                  <img class="img-fluid w-100" src="img/blog-1.jpg" alt="" />
+                  <img class="img-fluid w-100" src="/img/blog-1.jpg" alt="" />
                   <div class="blog-date">
                     <h6 class="font-weight-bold mb-n1">01</h6>
                     <small class="text-white text-uppercase">Jan</small>
@@ -402,7 +402,7 @@
             <div class="col-md-6 mb-4 pb-2">
               <div class="blog-item">
                 <div class="position-relative">
-                  <img class="img-fluid w-100" src="img/blog-2.jpg" alt="" />
+                  <img class="img-fluid w-100" src="/img/blog-2.jpg" alt="" />
                   <div class="blog-date">
                     <h6 class="font-weight-bold mb-n1">01</h6>
                     <small class="text-white text-uppercase">Jan</small>
@@ -465,7 +465,7 @@
           <!-- Author Bio -->
           <div class="d-flex flex-column text-center bg-white mb-5 py-5 px-4">
             <img
-              src="img/user.jpg"
+              src="/img/user.jpg"
               class="img-fluid mx-auto mb-3"
               style="width: 100px"
             />
@@ -575,7 +575,7 @@
               class="d-flex align-items-center text-decoration-none bg-white mb-3"
               to=""
             >
-              <img class="img-fluid" src="img/blog-100x100.jpg" alt="" />
+              <img class="img-fluid" src="/img/blog-100x100.jpg" alt="" />
               <div class="pl-3">
                 <h6 class="m-1">Diam lorem dolore justo eirmod lorem dolore</h6>
                 <small>Jan 01, 2050</small>
@@ -585,7 +585,7 @@
               class="d-flex align-items-center text-decoration-none bg-white mb-3"
               to=""
             >
-              <img class="img-fluid" src="img/blog-100x100.jpg" alt="" />
+              <img class="img-fluid" src="/img/blog-100x100.jpg" alt="" />
               <div class="pl-3">
                 <h6 class="m-1">Diam lorem dolore justo eirmod lorem dolore</h6>
                 <small>Jan 01, 2050</small>
@@ -595,7 +595,7 @@
               class="d-flex align-items-center text-decoration-none bg-white mb-3"
               to=""
             >
-              <img class="img-fluid" src="img/blog-100x100.jpg" alt="" />
+              <img class="img-fluid" src="/img/blog-100x100.jpg" alt="" />
               <div class="pl-3">
                 <h6 class="m-1">Diam lorem dolore justo eirmod lorem dolore</h6>
                 <small>Jan 01, 2050</small>

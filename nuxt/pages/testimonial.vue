@@ -207,7 +207,7 @@
         <div class="text-center pb-4">
           <img
             class="img-fluid mx-auto"
-            src="img/testimonial-1.jpg"
+            src="/img/testimonial-1.jpg"
             style="width: 100px; height: 100px"
           />
           <div class="testimonial-text bg-white p-4 mt-n5">
@@ -222,7 +222,7 @@
         <div class="text-center">
           <img
             class="img-fluid mx-auto"
-            src="img/testimonial-2.jpg"
+            src="/img/testimonial-2.jpg"
             style="width: 100px; height: 100px"
           />
           <div class="testimonial-text bg-white p-4 mt-n5">
@@ -237,7 +237,7 @@
         <div class="text-center">
           <img
             class="img-fluid mx-auto"
-            src="img/testimonial-3.jpg"
+            src="/img/testimonial-3.jpg"
             style="width: 100px; height: 100px"
           />
           <div class="testimonial-text bg-white p-4 mt-n5">
@@ -252,7 +252,7 @@
         <div class="text-center">
           <img
             class="img-fluid mx-auto"
-            src="img/testimonial-4.jpg"
+            src="/img/testimonial-4.jpg"
             style="width: 100px; height: 100px"
           />
           <div class="testimonial-text bg-white p-4 mt-n5">

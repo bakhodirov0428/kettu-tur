@@ -27,33 +27,34 @@
           <div class="position-relative h-100">
             <img
               class="position-absolute w-100 h-100"
-              src="img/about-3.jpg"
+              src="/img/about-3.jpg"
               style="object-fit: cover"
             />
           </div>
         </div>
         <div class="col-lg-6 pt-5 pb-lg-5">
           <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
-              About Us
+            <h6 class="text-primary" style="letter-spacing: 5px">
+              {{ $t("about.about_us.title") }}
             </h6>
-            <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
+            <h1 class="mb-3">
+              {{ $t("about.about_us.content") }}
+            </h1>
             <p>
-              KettuTur - Travel Agency. Various travel routes to many countries
-              increasing agency. Kettu Tur has it's top service among these
-              agencies. It is distinguished by its display and many great
-              offers.
+              {{ $t("about.about_us.text") }}
             </p>
             <div class="row mb-4">
               <div class="col-6">
-                <img class="img-fluid" src="img/about-4.jpg" alt="" />
+                <img class="img-fluid" src="/img/about-4.jpg" alt="" />
               </div>
               <div class="col-6">
-                <img class="img-fluid" src="img/slider1.jpg" alt="" />
+                <img class="img-fluid" src="/img/slider1.jpg" alt="" />
               </div>
             </div>
-            <NuxtLink to="/packages" class="btn btn-primary mt-1"
-              >Tour Packages</NuxtLink
+            <NuxtLink
+              :to="localePath('/packages')"
+              class="btn btn-primary py-md-3 px-md-5 mt-2"
+              >{{ $t("about.about_us.button") }}</NuxtLink
             >
           </div>
         </div>
@@ -75,9 +76,9 @@
               <i class="fa fa-2x fa-money-check-alt text-white"></i>
             </div>
             <div class="d-flex flex-column">
-              <h5 class="">Competitive Pricing</h5>
+              <h5 class="">{{ $t("about.about_us.card.title") }}</h5>
               <p class="m-0">
-                We recommend different packages to suit your budget.
+                {{ $t("about.about_us.card.content") }}
               </p>
             </div>
           </div>
@@ -91,8 +92,8 @@
               <i class="fa fa-2x fa-award text-white"></i>
             </div>
             <div class="d-flex flex-column">
-              <h5 class="">Best Services</h5>
-              <p class="m-0">We offer you the best services</p>
+              <h5 class="">{{ $t("about.about_us.card1.title") }}</h5>
+              <p class="m-0">{{ $t("about.about_us.card1.content") }}</p>
             </div>
           </div>
         </div>
@@ -105,8 +106,8 @@
               <i class="fa fa-2x fa-passport text-white"></i>
             </div>
             <div class="d-flex flex-column">
-              <h5 class="">VISA</h5>
-              <p class="m-0">Visa support to European countries</p>
+              <h5 class="">{{ $t("about.about_us.card2.title") }}</h5>
+              <p class="m-0">{{ $t("about.about_us.card2.content") }}</p>
             </div>
           </div>
         </div>
@@ -122,18 +123,17 @@
         <div class="col-lg-7 mb-5 mb-lg-0">
           <div class="mb-4">
             <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
-              Mega Offer
+              {{ $t("about.taklif.title") }}
             </h6>
             <h1 class="text-white">
-              <span class="text-primary">30% OFF</span> For Honeymoon
+              <span class="text-primary">{{ $t("about.taklif.price") }}</span>
+              {{ $t("about.taklif.chegirma") }}
             </h1>
           </div>
           <p class="text-white">
-            Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
-            dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat
-            justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor
+            {{ $t("about.taklif.content") }}
           </p>
-          <ul class="list-inline text-white m-0">
+          <!-- <ul class="list-inline text-white m-0">
             <li class="py-2">
               <i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor
               amet diam
@@ -146,12 +146,14 @@
               <i class="fa fa-check text-primary mr-3"></i>Diam dolor diam
               elitripsum vero.
             </li>
-          </ul>
+          </ul> -->
         </div>
         <div class="col-lg-5">
           <div class="card border-0">
             <div class="card-header bg-primary text-center p-4">
-              <h1 class="text-white m-0">Feedback</h1>
+              <h1 class="text-white m-0">
+                {{ $t("about.taklif.helo.title") }}
+              </h1>
             </div>
             <div class="card-body rounded-bottom bg-white p-5">
               <form>
@@ -166,14 +168,14 @@
                     name=""
                     id=""
                     class="form-control p-4"
-                    placeholder="Your message"
+                    :placeholder="$t('home.taklif.helo.massege')"
                     style="width: 100%"
                   ></textarea>
                 </div>
 
                 <div>
                   <button class="btn btn-primary btn-block py-3" type="submit">
-                    Send Message
+                    {{ $t("about.taklif.helo.button") }}
                   </button>
                 </div>
               </form>
@@ -185,3 +187,8 @@
   </div>
   <!-- Registration End -->
 </template>
+
+<script setup>
+import { useLocalePath } from "#imports";
+const localePath = useLocalePath();
+</script>

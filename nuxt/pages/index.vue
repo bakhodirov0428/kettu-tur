@@ -4,42 +4,42 @@
     <div id="header-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="w-100" src="img/slider1.jpg" alt="Image" />
+          <img class="w-100" src="/img/slider1.jpg" alt="Image" />
           <div
             class="carousel-caption d-flex flex-column align-items-center justify-content-center"
           >
             <div class="p-3" style="max-width: 900px">
               <h4 class="text-white text-uppercase mb-md-3">
-                Ekskursiyalar & Sayohatlar
+                {{ $t("home.hero.title") }}
               </h4>
               <h1 class="display-3 text-white mb-md-4">
-                Bu siz orzu qilgan qulayliklarga ega bo'lgan dam olish
-                maskanidir
+                {{ $t("home.hero.content") }}
               </h1>
               <NuxtLink
-                to="/packages"
+                :to="localePath('/packages')"
                 class="btn btn-primary py-md-3 px-md-5 mt-2"
-                >Tur Paketlar</NuxtLink
+              >
+                {{ $t("home.hero.button") }}r</NuxtLink
               >
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="w-100" src="img/slider2.jpg" alt="Image" />
+          <img class="w-100" src="/img/slider2.jpg" alt="Image" />
           <div
             class="carousel-caption d-flex flex-column align-items-center justify-content-center"
           >
             <div class="p-3" style="max-width: 900px">
               <h4 class="text-white text-uppercase mb-md-3">
-                Ekskursiyalar & Sayohatlar
+                {{ $t("home.hero.title") }}
               </h4>
               <h1 class="display-3 text-white mb-md-4">
-                Biz bilan ajoyib joylarni kashf eting
+                {{ $t("home.hero.content2") }}
               </h1>
               <NuxtLink
-                to="/packages"
+                :to="localePath('/packages')"
                 class="btn btn-primary py-md-3 px-md-5 mt-2"
-                >Tur Paketlar</NuxtLink
+                >{{ $t("home.hero.button") }}</NuxtLink
               >
             </div>
           </div>
@@ -75,38 +75,34 @@
           <div class="position-relative h-100">
             <img
               class="position-absolute w-100 h-100"
-              src="img/about-3.jpg"
+              src="/img/about-3.jpg"
               style="object-fit: cover"
             />
           </div>
         </div>
         <div class="col-lg-6 pt-5 pb-lg-5">
           <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
-              Biz Haqimizda
+            <h6 class="text-primary" style="letter-spacing: 5px">
+              {{ $t("home.about_us.title") }}
             </h6>
             <h1 class="mb-3">
-              Biz sizning byudjetingizda mos eng yaxshi tur paketlarini taqdim
-              etamiz
+              {{ $t("home.about_us.content") }}
             </h1>
             <p>
-              KettuTur - sayyohlik agentligi. Ko'plab davlatlarda turli xil
-              safar yo'llarini amalga oshiruvchi agentlik. Kettu Tur bu
-              agentliklar ichida o'zining yuqori xizmat ko'rsatish hamda ko'plab
-              ajoyib takliflari bilan ajralib turadi.
+              {{ $t("home.about_us.text") }}
             </p>
             <div class="row mb-4">
               <div class="col-6">
-                <img class="img-fluid" src="img/about-4.jpg" alt="" />
+                <img class="img-fluid" src="/img/about-4.jpg" alt="" />
               </div>
               <div class="col-6">
-                <img class="img-fluid" src="img/slider1.jpg" alt="" />
+                <img class="img-fluid" src="/img/slider1.jpg" alt="" />
               </div>
             </div>
             <NuxtLink
-              to="/packages"
+              :to="localePath('/packages')"
               class="btn btn-primary py-md-3 px-md-5 mt-2"
-              >Tur Paketlar</NuxtLink
+              >{{ $t("home.about_us.button") }}</NuxtLink
             >
           </div>
         </div>
@@ -128,10 +124,9 @@
               <i class="fa fa-2x fa-money-check-alt text-white"></i>
             </div>
             <div class="d-flex flex-column">
-              <h5 class="">Qulay Narxlar</h5>
+              <h5 class="">{{ $t("home.about_us.card.title") }}</h5>
               <p class="m-0">
-                Sizning byudjetingizga mos keladigan turli xil paketlarni
-                tavsiya qilamiz.
+                {{ $t("home.about_us.card.content") }}
               </p>
             </div>
           </div>
@@ -145,8 +140,8 @@
               <i class="fa fa-2x fa-award text-white"></i>
             </div>
             <div class="d-flex flex-column">
-              <h5 class="">Yaxshi Xizmatlar</h5>
-              <p class="m-0">Biz sizga eng yaxshi xizmatlarni taklif etamiz</p>
+              <h5 class="">{{ $t("home.about_us.card1.title") }}</h5>
+              <p class="m-0">{{ $t("home.about_us.card1.content") }}</p>
             </div>
           </div>
         </div>
@@ -159,8 +154,8 @@
               <i class="fa fa-2x fa-passport text-white"></i>
             </div>
             <div class="d-flex flex-column">
-              <h5 class="">VISA</h5>
-              <p class="m-0">Evropa davlatlariga VISA olishda yordam.</p>
+              <h5 class="">{{ $t("home.about_us.card2.title") }}</h5>
+              <p class="m-0">{{ $t("home.about_us.card2.content") }}</p>
             </div>
           </div>
         </div>
@@ -174,44 +169,44 @@
     <div class="container pt-5 pb-3">
       <div class="text-center mb-3 pb-3">
         <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
-          Ichki turizm
+          {{ $t("home.turizm.title") }}
         </h6>
-        <h1>O'zbekiston bo'ylab sayohatlar</h1>
+        <h1>{{ $t("home.turizm.content") }}</h1>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="destination-item position-relative overflow-hidden mb-2">
-            <img class="img-fluid" src="img/Khiva-Itchan-Kala-3.jpg" alt="" />
+            <img class="img-fluid" src="/img/Khiva-Itchan-Kala-3.jpg" alt="" />
             <NuxtLink
               class="destination-overlay text-white text-decoration-none"
-              to="/packages"
+              :to="localePath('/packages')"
             >
-              <h5 class="text-white">Xivaga guruh sayohati</h5>
-              <span>1 780 000 UZS</span>
+              <h5 class="text-white">{{ $t("home.turizm.card.title") }}</h5>
+              <span>{{ $t("home.turizm.card.price") }} UZS</span>
             </NuxtLink>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="destination-item position-relative overflow-hidden mb-2">
-            <img class="img-fluid" src="img/bukhara.jpg" alt="" />
+            <img class="img-fluid" src="/img/bukhara.jpg" alt="" />
             <NuxtLink
               class="destination-overlay text-white text-decoration-none"
-              to="/packages"
+              :to="localePath('/packages')"
             >
-              <h5 class="text-white">Buxoroga guruh sayohati</h5>
-              <span>1 550 000 UZS</span>
+              <h5 class="text-white">{{ $t("home.turizm.card1.title") }}</h5>
+              <span>{{ $t("home.turizm.card1.price") }} UZS</span>
             </NuxtLink>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="destination-item position-relative overflow-hidden mb-2">
-            <img class="img-fluid" src="img/samarkand.jpg" alt="" />
+            <img class="img-fluid" src="/img/samarkand.jpg" alt="" />
             <NuxtLink
               class="destination-overlay text-white text-decoration-none"
-              to="/packages"
+              :to="localePath('/packages')"
             >
-              <h5 class="text-white">Samarqandga guruh sayohati</h5>
-              <span>320 000 UZS</span>
+              <h5 class="text-white">{{ $t("home.turizm.card2.title") }}</h5>
+              <span>{{ $t("home.turizm.card2.price") }} UZS</span>
             </NuxtLink>
           </div>
         </div>
@@ -225,39 +220,36 @@
     <div class="container pt-5 pb-3">
       <div class="text-center mb-3 pb-3">
         <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
-          Xizmatlarimiz
+          {{ $t("home.service.title") }}
         </h6>
-        <h1>Ekskursiya va Sayohat Xizmatlari</h1>
+        <h1>{{ $t("home.service.content") }}</h1>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="service-item bg-white text-center mb-2 py-5 px-4">
             <i class="fa fa-2x fa-route mx-auto mb-4"></i>
-            <h5 class="mb-2">Sayohat bo'yicha qo'llanma</h5>
-            <p class="m-0">
-              Justo sit justo eos amet tempor amet clita amet ipsum eos elitr.
-              Amet lorem est amet labore
-            </p>
+            <h5 class="mb-2">{{ $t("home.service.card.title") }}</h5>
+            <!-- <p class="m-0">
+              {{ $t("home.service.card.content") }}
+            </p> -->
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="service-item bg-white text-center mb-2 py-5 px-4">
             <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"></i>
-            <h5 class="mb-2">Chipta bron qilish</h5>
-            <p class="m-0">
-              Justo sit justo eos amet tempor amet clita amet ipsum eos elitr.
-              Amet lorem est amet labore
-            </p>
+            <h5 class="mb-2">{{ $t("home.service.card1.title") }}</h5>
+            <!-- <p class="m-0">
+              {{ $t("home.service.card1.content") }}
+            </p> -->
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="service-item bg-white text-center mb-2 py-5 px-4">
             <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
-            <h5 class="mb-2">Mehmonxona bron qilish</h5>
-            <p class="m-0">
-              Justo sit justo eos amet tempor amet clita amet ipsum eos elitr.
-              Amet lorem est amet labore
-            </p>
+            <h5 class="mb-2">{{ $t("home.service.card2.title") }}</h5>
+            <!-- <p class="m-0">
+              {{ $t("home.service.card2.content") }}
+            </p> -->
           </div>
         </div>
       </div>
@@ -270,14 +262,14 @@
     <div class="container pt-5 pb-3">
       <div class="text-center mb-3 pb-3">
         <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
-          Paketlar
+          {{ $t("home.paketlar.title") }}
         </h6>
-        <h1>DUNYO BO'YLAB SAYOHATLAR</h1>
+        <h1>{{ $t("home.paketlar.content") }}</h1>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="package-item bg-white mb-2">
-            <img class="img-fluid" src="img/about-1.jpg" alt="" />
+            <img class="img-fluid" src="/img/about-1.jpg" alt="" />
             <div class="p-4">
               <div class="d-flex justify-content-between mb-3">
                 <small class="m-0"
@@ -286,14 +278,17 @@
                 >
                 <small class="m-0"
                   ><i class="fa fa-calendar-alt text-primary mr-2"></i>3
-                  kun</small
+                  {{ $t("home.paketlar.card.day") }}</small
                 >
                 <small class="m-0"
-                  ><i class="fa fa-user text-primary mr-2"></i>2 kishilik</small
+                  ><i class="fa fa-user text-primary mr-2"></i>2
+                  {{ $t("home.paketlar.card.person") }}</small
                 >
               </div>
-              <NuxtLink class="h5 text-decoration-none" to="/tour"
-                >Biz bilan dunyoning ajoyib joylarini kashf eting</NuxtLink
+              <NuxtLink
+                class="h5 text-decoration-none"
+                :to="localePath('/tour')"
+                >{{ $t("home.paketlar.card.content") }}</NuxtLink
               >
               <div class="border-top mt-4 pt-4">
                 <div class="d-flex justify-content-between">
@@ -309,7 +304,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="package-item bg-white mb-2">
-            <img class="img-fluid" src="img/about-1.jpg" alt="" />
+            <img class="img-fluid" src="/img/about-1.jpg" alt="" />
             <div class="p-4">
               <div class="d-flex justify-content-between mb-3">
                 <small class="m-0"
@@ -318,14 +313,17 @@
                 >
                 <small class="m-0"
                   ><i class="fa fa-calendar-alt text-primary mr-2"></i>3
-                  kun</small
+                  {{ $t("home.paketlar.card1.day") }}</small
                 >
                 <small class="m-0"
-                  ><i class="fa fa-user text-primary mr-2"></i>2 kishilik</small
+                  ><i class="fa fa-user text-primary mr-2"></i>2
+                  {{ $t("home.paketlar.card1.person") }}</small
                 >
               </div>
-              <NuxtLink class="h5 text-decoration-none" to="/tour"
-                >Biz bilan dunyoning ajoyib joylarini kashf eting</NuxtLink
+              <NuxtLink
+                class="h5 text-decoration-none"
+                :to="localePath('/tour')"
+                >{{ $t("home.paketlar.card1.content") }}</NuxtLink
               >
               <div class="border-top mt-4 pt-4">
                 <div class="d-flex justify-content-between">
@@ -341,7 +339,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="package-item bg-white mb-2">
-            <img class="img-fluid" src="img/about-1.jpg" alt="" />
+            <img class="img-fluid" src="/img/about-1.jpg" alt="" />
             <div class="p-4">
               <div class="d-flex justify-content-between mb-3">
                 <small class="m-0"
@@ -350,14 +348,17 @@
                 >
                 <small class="m-0"
                   ><i class="fa fa-calendar-alt text-primary mr-2"></i>3
-                  kun</small
+                  {{ $t("home.paketlar.card2.day") }}</small
                 >
                 <small class="m-0"
-                  ><i class="fa fa-user text-primary mr-2"></i>2 kishilik</small
+                  ><i class="fa fa-user text-primary mr-2"></i>2
+                  {{ $t("home.paketlar.card2.person") }}</small
                 >
               </div>
-              <NuxtLink class="h5 text-decoration-none" to="/tour"
-                >Biz bilan dunyoning ajoyib joylarini kashf eting</NuxtLink
+              <NuxtLink
+                class="h5 text-decoration-none"
+                :to="localePath('/tour')"
+                >{{ $t("home.paketlar.card2.content") }}</NuxtLink
               >
               <div class="border-top mt-4 pt-4">
                 <div class="d-flex justify-content-between">
@@ -373,7 +374,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="package-item bg-white mb-2">
-            <img class="img-fluid" src="img/about-1.jpg" alt="" />
+            <img class="img-fluid" src="/img/about-1.jpg" alt="" />
             <div class="p-4">
               <div class="d-flex justify-content-between mb-3">
                 <small class="m-0"
@@ -382,14 +383,17 @@
                 >
                 <small class="m-0"
                   ><i class="fa fa-calendar-alt text-primary mr-2"></i>3
-                  kun</small
+                  {{ $t("home.paketlar.card3.day") }}</small
                 >
                 <small class="m-0"
-                  ><i class="fa fa-user text-primary mr-2"></i>2 kishilik</small
+                  ><i class="fa fa-user text-primary mr-2"></i>2
+                  {{ $t("home.paketlar.card3.person") }}</small
                 >
               </div>
-              <NuxtLink class="h5 text-decoration-none" to="/tour"
-                >Biz bilan dunyoning ajoyib joylarini kashf eting</NuxtLink
+              <NuxtLink
+                class="h5 text-decoration-none"
+                :to="localePath('/tour')"
+                >{{ $t("home.paketlar.card3.content") }}</NuxtLink
               >
               <div class="border-top mt-4 pt-4">
                 <div class="d-flex justify-content-between">
@@ -405,7 +409,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="package-item bg-white mb-2">
-            <img class="img-fluid" src="img/about-1.jpg" alt="" />
+            <img class="img-fluid" src="/img/about-1.jpg" alt="" />
             <div class="p-4">
               <div class="d-flex justify-content-between mb-3">
                 <small class="m-0"
@@ -414,14 +418,17 @@
                 >
                 <small class="m-0"
                   ><i class="fa fa-calendar-alt text-primary mr-2"></i>3
-                  kun</small
+                  {{ $t("home.paketlar.card4.day") }}</small
                 >
                 <small class="m-0"
-                  ><i class="fa fa-user text-primary mr-2"></i>2 kishilik</small
+                  ><i class="fa fa-user text-primary mr-2"></i>2
+                  {{ $t("home.paketlar.card4.person") }}</small
                 >
               </div>
-              <NuxtLink class="h5 text-decoration-none" to="/tour"
-                >Biz bilan dunyoning ajoyib joylarini kashf eting</NuxtLink
+              <NuxtLink
+                class="h5 text-decoration-none"
+                :to="localePath('/tour')"
+                >{{ $t("home.paketlar.card4.content") }}</NuxtLink
               >
               <div class="border-top mt-4 pt-4">
                 <div class="d-flex justify-content-between">
@@ -437,7 +444,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="package-item bg-white mb-2">
-            <img class="img-fluid" src="img/about-1.jpg" alt="" />
+            <img class="img-fluid" src="/img/about-1.jpg" alt="" />
             <div class="p-4">
               <div class="d-flex justify-content-between mb-3">
                 <small class="m-0"
@@ -446,14 +453,17 @@
                 >
                 <small class="m-0"
                   ><i class="fa fa-calendar-alt text-primary mr-2"></i>3
-                  kun</small
+                  {{ $t("home.paketlar.card5.day") }}</small
                 >
                 <small class="m-0"
-                  ><i class="fa fa-user text-primary mr-2"></i>2 kishilik</small
+                  ><i class="fa fa-user text-primary mr-2"></i>2
+                  {{ $t("home.paketlar.card5.person") }}</small
                 >
               </div>
-              <NuxtLink class="h5 text-decoration-none" to="/tour"
-                >Biz bilan dunyoning ajoyib joylarini kashf eting</NuxtLink
+              <NuxtLink
+                class="h5 text-decoration-none"
+                :to="localePath('/tour')"
+                >{{ $t("home.paketlar.card5.content") }}</NuxtLink
               >
               <div class="border-top mt-4 pt-4">
                 <div class="d-flex justify-content-between">
@@ -479,36 +489,35 @@
         <div class="col-lg-7 mb-5 mb-lg-0">
           <div class="mb-4">
             <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
-              Mega Offer
+              {{ $t("home.taklif.title") }}
             </h6>
             <h1 class="text-white">
-              <span class="text-primary">30% OFF</span> For Honeymoon
+              <span class="text-primary">{{ $t("home.taklif.price") }}</span>
+              {{ $t("home.taklif.chegirma") }}
             </h1>
           </div>
           <p class="text-white">
-            Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
-            dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat
-            justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor
+            {{ $t("home.taklif.content") }}
           </p>
-          <ul class="list-inline text-white m-0">
+          <!-- <ul class="list-inline text-white m-0">
             <li class="py-2">
-              <i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor
-              amet diam
+              <i class="fa fa-check text-primary mr-3"></i
+              >{{ $t("home.taklif.offer") }}
             </li>
             <li class="py-2">
-              <i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor
-              amet ipsum
+              <i class="fa fa-check text-primary mr-3"></i
+              >{{ $t("home.taklif.offer1") }}
             </li>
             <li class="py-2">
-              <i class="fa fa-check text-primary mr-3"></i>Diam dolor diam
-              elitripsum vero.
+              <i class="fa fa-check text-primary mr-3"></i
+              >{{ $t("home.taklif.offer2") }}
             </li>
-          </ul>
+          </ul> -->
         </div>
         <div class="col-lg-5">
           <div class="card border-0">
             <div class="card-header bg-primary text-center p-4">
-              <h1 class="text-white m-0">Yordam</h1>
+              <h1 class="text-white m-0">{{ $t("home.taklif.helo.title") }}</h1>
             </div>
             <div class="card-body rounded-bottom bg-white p-5">
               <form>
@@ -516,7 +525,7 @@
                   <input
                     type="text"
                     class="form-control p-4"
-                    placeholder="Ismingiz"
+                    :placeholder="$t('home.taklif.helo.name')"
                     required
                   />
                 </div>
@@ -524,7 +533,7 @@
                   <input
                     type="number"
                     class="form-control p-4"
-                    placeholder="Telefon raqamingiz"
+                    :placeholder="$t('home.taklif.helo.number')"
                     required
                   />
                 </div>
@@ -533,14 +542,14 @@
                     name=""
                     id=""
                     class="form-control p-4"
-                    placeholder="Xabaringizni yozing"
+                    :placeholder="$t('home.taklif.helo.massege')"
                     style="width: 100%"
                   ></textarea>
                 </div>
 
                 <div>
                   <button class="btn btn-primary btn-block py-3" type="submit">
-                    Xabar Yuborish
+                    {{ $t("home.taklif.helo.button") }}
                   </button>
                 </div>
               </form>
@@ -552,3 +561,11 @@
   </div>
   <!-- Registration End -->
 </template>
+<script setup>
+import { useLocalePath } from "#imports";
+const localePath = useLocalePath();
+
+useHead({
+  title: "Bosh sahifa",
+});
+</script>

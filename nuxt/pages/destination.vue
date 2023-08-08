@@ -199,7 +199,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="destination-item position-relative overflow-hidden mb-2">
-            <img class="img-fluid" src="img/destination-1.jpg" alt="" />
+            <img class="img-fluid" src="/img/destination-1.jpg" alt="" />
             <NuxtLink
               class="destination-overlay text-white text-decoration-none"
               to=""
@@ -211,7 +211,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="destination-item position-relative overflow-hidden mb-2">
-            <img class="img-fluid" src="img/destination-2.jpg" alt="" />
+            <img class="img-fluid" src="/img/destination-2.jpg" alt="" />
             <NuxtLink
               class="destination-overlay text-white text-decoration-none"
               to=""
@@ -223,7 +223,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="destination-item position-relative overflow-hidden mb-2">
-            <img class="img-fluid" src="img/destination-3.jpg" alt="" />
+            <img class="img-fluid" src="/img/destination-3.jpg" alt="" />
             <NuxtLink
               class="destination-overlay text-white text-decoration-none"
               to=""
@@ -235,7 +235,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="destination-item position-relative overflow-hidden mb-2">
-            <img class="img-fluid" src="img/destination-4.jpg" alt="" />
+            <img class="img-fluid" src="/img/destination-4.jpg" alt="" />
             <NuxtLink
               class="destination-overlay text-white text-decoration-none"
               to=""
@@ -247,7 +247,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="destination-item position-relative overflow-hidden mb-2">
-            <img class="img-fluid" src="img/destination-5.jpg" alt="" />
+            <img class="img-fluid" src="/img/destination-5.jpg" alt="" />
             <NuxtLink
               class="destination-overlay text-white text-decoration-none"
               to=""
@@ -259,7 +259,7 @@
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="destination-item position-relative overflow-hidden mb-2">
-            <img class="img-fluid" src="img/destination-6.jpg" alt="" />
+            <img class="img-fluid" src="/img/destination-6.jpg" alt="" />
             <NuxtLink
               class="destination-overlay text-white text-decoration-none"
               to=""

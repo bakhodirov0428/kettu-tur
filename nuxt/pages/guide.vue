@@ -205,7 +205,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
           <div class="team-item bg-white mb-4">
             <div class="team-img position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <img class="img-fluid w-100" src="/img/team-1.jpg" alt="" />
               <div class="team-social">
                 <NuxtLink class="btn btn-outline-primary btn-square" to=""
                   ><i class="fab fa-twitter"></i
@@ -230,7 +230,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
           <div class="team-item bg-white mb-4">
             <div class="team-img position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="img/team-2.jpg" alt="" />
+              <img class="img-fluid w-100" src="/img/team-2.jpg" alt="" />
               <div class="team-social">
                 <NuxtLink class="btn btn-outline-primary btn-square" to=""
                   ><i class="fab fa-twitter"></i
@@ -255,7 +255,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
           <div class="team-item bg-white mb-4">
             <div class="team-img position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="img/team-3.jpg" alt="" />
+              <img class="img-fluid w-100" src="/img/team-3.jpg" alt="" />
               <div class="team-social">
                 <NuxtLink class="btn btn-outline-primary btn-square" to=""
                   ><i class="fab fa-twitter"></i
@@ -280,7 +280,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
           <div class="team-item bg-white mb-4">
             <div class="team-img position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="img/team-4.jpg" alt="" />
+              <img class="img-fluid w-100" src="/img/team-4.jpg" alt="" />
               <div class="team-social">
                 <NuxtLink class="btn btn-outline-primary btn-square" to=""
                   ><i class="fab fa-twitter"></i
@@ -305,7 +305,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
           <div class="team-item bg-white mb-4">
             <div class="team-img position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <img class="img-fluid w-100" src="/img/team-1.jpg" alt="" />
               <div class="team-social">
                 <NuxtLink class="btn btn-outline-primary btn-square" to=""
                   ><i class="fab fa-twitter"></i
@@ -330,7 +330,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
           <div class="team-item bg-white mb-4">
             <div class="team-img position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="img/team-2.jpg" alt="" />
+              <img class="img-fluid w-100" src="/img/team-2.jpg" alt="" />
               <div class="team-social">
                 <NuxtLink class="btn btn-outline-primary btn-square" to=""
                   ><i class="fab fa-twitter"></i
@@ -355,7 +355,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
           <div class="team-item bg-white mb-4">
             <div class="team-img position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="img/team-3.jpg" alt="" />
+              <img class="img-fluid w-100" src="/img/team-3.jpg" alt="" />
               <div class="team-social">
                 <NuxtLink class="btn btn-outline-primary btn-square" to=""
                   ><i class="fab fa-twitter"></i
@@ -380,7 +380,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
           <div class="team-item bg-white mb-4">
             <div class="team-img position-relative overflow-hidden">
-              <img class="img-fluid w-100" src="img/team-4.jpg" alt="" />
+              <img class="img-fluid w-100" src="/img/team-4.jpg" alt="" />
               <div class="team-social">
                 <NuxtLink class="btn btn-outline-primary btn-square" to=""
                   ><i class="fab fa-twitter"></i
